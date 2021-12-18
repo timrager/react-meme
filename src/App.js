@@ -1,8 +1,12 @@
 import React from 'react';
+import Header from './Header';
+import './style.css';
 
 const App = () => {
   return (
-    <h1> TEST </h1>
+    <div>
+      <Header />
+    </div>
   )
 }
 
